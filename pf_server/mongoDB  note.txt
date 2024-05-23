@@ -1,0 +1,33 @@
+MONGO DB
+========
+
+>Its a non-relational,no-sql,document based,open source dbms
+..>Faster
+..>Scalable
+..>Document Based-JSON documents(Will be stored as key value pairs)
+..>Schemaless
+
+MySQL                   MongoBD
+================================
+>Database               >Database
+>Table                  >Collection
+>Row/tuple/entity       >Document
+>Colum                  >Fields
+>PrimaryKey             >_id(12bit hexadecimal values for every document which is unique)
+
+
+
+Mongoose  -ODM library
+----------------------
+
+-Object Data Modeling library for MongoBD and node.js
+-Used to transilate object in node app and representation of those objects in MongoBD
+-Defines schema/structure for storing documents in a collection of MongoBD
+    Schema Types(String,Number,default,...)
+    options(required,default)
+-creates model similar to collection where we can store documents
+-install mongoose ( npm i mongoose)
+-create connection :
+     >create folder in server :DB folder
+     >create a JS file to define connection
+     
